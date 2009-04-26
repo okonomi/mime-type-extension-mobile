@@ -1,4 +1,3 @@
-
 <?php
 
 require_once 'MIME/Type/Extension.php';
@@ -6,7 +5,7 @@ require_once 'MIME/Type/Extension.php';
 
 class MIME_Type_Extension_Mobile extends MIME_Type_Extension
 {
-    protected $extensionToType = array(
+    public $extensionToType = array(
         'vbm'  => 'text/x-vbookmark',                // vBookmark
         'vcf'  => 'text/x-vcard',                    // vCard
         'vcs'  => 'text/x-vcalendar',                // vCalendar
@@ -43,7 +42,6 @@ class MIME_Type_Extension_Mobile extends MIME_Type_Extension
         'dcf'  => 'application/vnd.oma.drm.content',
         'dm'   => 'application/vnd.oma.drm.message',
     );
-
 
     function __construct()
     {
