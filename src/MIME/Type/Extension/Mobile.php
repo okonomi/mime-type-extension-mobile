@@ -38,6 +38,7 @@ class MIME_Type_Extension_Mobile extends MIME_Type_Extension
         'mml'  => 'text/x-mml',
         'jad'  => 'text/vnd.sun.j2me.app-descriptor',
         'smd'  => 'audio/x-smd',
+        'hmt'  => 'application/x-htmlmail-template', // デコレメールテンプレート
 
         'dd'   => 'application/vnd.oma.dd+xml',
         'dcf'  => 'application/vnd.oma.drm.content',
