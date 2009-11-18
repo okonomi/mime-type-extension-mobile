@@ -19,6 +19,7 @@ class MIME_Type_Extension_Mobile extends MIME_Type_Extension
         'afd'  => 'application/x-avatar',            // キャラ電
         'cfd'  => 'application/x-character-overlay', // マチキャラ
         'dmt'  => 'application/x-decomail-template', // デコメールテンプレート
+        'vgt'  => 'application/x-dcm-vgt'            // デコメアニメテンプレート
         'ifm'  => 'image/gif',                       // 写真フレーム
         'jam'  => 'application/x-jam',               // iアプリ
         'mld'  => 'application/x-mld',               // 着信メロディ
